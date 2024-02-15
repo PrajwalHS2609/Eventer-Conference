@@ -1,0 +1,236 @@
+.pg6Container {
+    /* border: solid red; */
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: sandybrown;
+}
+
+.pg6HeadingContainer {
+    /* border: solid red; */
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pg6HeadingContent {
+    /* border: solid blue; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#pg6HeadingContent2 {
+    /* border: solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 20%;
+    margin-top: 10px;
+}
+
+.pg6HeadingInnerContent {
+    /* border: solid; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#pg6HeadingInnerContent1 {
+    position: relative;
+    width: 1%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#pg6HeadingInnerContent2 {
+    position: relative;
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#pg6HeadingInnerContent2>h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+}
+
+.headerPg6Dot {
+    border: solid grey;
+    background-color: grey;
+    border-radius: 100%;
+    width: 7px;
+    height: 7px;
+}
+
+.headerPg6Line1 {
+    border: 1px solid grey;
+    position: absolute;
+    right: 6px;
+    width: 21.5px;
+
+}
+
+.headerPg6Line2 {
+    border: 1px solid grey;
+    position: absolute;
+    right: 26px;
+    top: 34px;
+    height: 35px;
+
+}
+
+.headerPg6Line3 {
+    border: 1px solid grey;
+    position: absolute;
+    right: -872.5px;
+    top: 69px;
+    width: 900px;
+    border-bottom-right-radius: 100%;
+}
+
+.pg6HeadingText {
+    font-size: medium;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.pg6MainContainer {
+    /* border: solid magenta; */
+    width: 100%;
+    overflow: hidden;
+    height: 80%;
+}
+
+.pg6SliderContainer {
+    /* border: solid yellow; */
+    width: 90%;
+    height: 100%;
+}
+
+.pg6SliderContent {
+    /* border: solid yellowgreen; */
+    height: 300px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+
+}
+
+.pg6SliderInnerContent {
+    /* border: solid; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#pg6SliderItem1 {
+    /* border: solid red; */
+    height: 35%;
+    width: 85%;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+
+.pg6SliderOuterFrame {
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.pg6SliderOuterFrame>img {
+    width: 95%;
+    height: 60px;
+    margin-top: 0px;
+    filter: grayscale(100);
+    transition: 200ms ease-in-out;
+}
+
+.pg6SliderOuterFrame>img:hover {
+    filter: grayscale(0);
+
+}
+
+@media screen and (max-width:600px) {
+
+    #pg6HeadingInnerContent2 {
+        /* border: solid blue; */
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pg6Container {
+        /* border: solid red; */
+        height: 500px;
+        width: 700px;
+        margin-top: 50px;
+
+    }
+
+    #pg6HeadingInnerContent1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:990px) and (min-width:600px) {
+    #pg6HeadingInnerContent2 {
+        /* border: solid blue; */
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pg6Container {
+        /* border: solid red; */
+        height: 500px;
+        width: 768px;
+        margin-top: 50px;
+
+    }
+
+    #pg6SliderItem1 {
+        /* border: solid red; */
+        height: 25%;
+     
+    }
+
+    #pg6HeadingInnerContent1 {
+        display: none;
+    }
+}

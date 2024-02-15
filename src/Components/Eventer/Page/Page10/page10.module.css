@@ -1,0 +1,249 @@
+.pg10Container {
+    /* border: solid red; */
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: rgb(244, 155, 77);
+}
+
+.pg10HeadingContainer {
+    /* border: solid red; */
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.pg10HeadingContent {
+    /* border: solid blue; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#pg10HeadingContent2 {
+        /* border: solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 20%;
+    margin-top: 20px;
+}
+
+.pg10HeadingInnerContent {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#pg10HeadingInnerContent1 {
+    position: relative;
+    width: 1%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#pg10HeadingInnerContent2 {
+    position: relative;
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#pg10HeadingInnerContent2>h1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.pg10HeadingInnerContent2Underline {
+    border: 1px solid;
+    width: 350px;
+    margin-top: 3px;
+    display: none;
+}
+
+.headerPg10Dot {
+    border: solid grey;
+    background-color: grey;
+    border-radius: 100%;
+    width: 7px;
+    height: 7px;
+}
+
+.headerPg10Line1 {
+    border: 1px solid grey;
+    position: absolute;
+    right: 7px;
+    width: 20px;
+
+}
+
+
+.headerPg10Line2 {
+    border: 1px solid grey;
+    position: absolute;
+    right: 26px;
+    top: 33px;
+    height: 43px;
+
+}
+
+.headerPg10Line3 {
+    border: 1px solid grey;
+    position: absolute;
+    right: -872.5px;
+    top: 75px;
+    width: 900px;
+    border-bottom-right-radius: 100%;
+}
+
+.pg10HeadingText {
+    font-size: small;
+    letter-spacing: 0.1px;
+}
+
+.pg10MainContainer {
+    /* border: solid; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.pg10MainContent {
+    /* border: solid; */
+    border-radius: 10px;
+    width: 20%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.pg10MainContent>input {
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 70%;
+}
+
+input[type="text"] {
+    font-size: 17px;
+}
+
+#pg10MainContent1 {
+    background-color: rgb(240, 179, 125);
+
+}
+
+
+#pg10MainContent1>button {
+    background-color: rgb(240, 179, 125);
+    width: 90%;
+    height: 70%;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .pg10Container {
+        /* border: solid red; */
+        height: 550px;
+        width: 700px;
+    }
+
+    #pg10HeadingInnerContent1 {
+        display: none;
+    }
+
+    #pg10HeadingInnerContent2 {
+        position: relative;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pg10HeadingInnerContent2Underline {
+        display: block;
+
+    }
+
+    .pg10MainContainer {
+        /* border: solid; */
+        height: 400px;
+        flex-direction: column;
+    }
+
+    .pg10MainContent {
+        /* border: solid; */
+        border-radius: 10px;
+        width: 70%;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:990px) and (min-width:600px) {
+    .pg10Container {
+        /* border: solid red; */
+        height: 450px;
+        width: 768px;
+    }
+
+    #pg10HeadingInnerContent1 {
+        display: none;
+    }
+
+    #pg10HeadingInnerContent2 {
+        position: relative;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pg10HeadingInnerContent2Underline {
+        display: block;
+
+    }
+
+    .pg10MainContainer {
+        /* border: solid; */
+        height: 400px;
+        flex-direction: column;
+    }
+
+    .pg10MainContent {
+        /* border: solid; */
+        border-radius: 10px;
+        width: 70%;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+}
