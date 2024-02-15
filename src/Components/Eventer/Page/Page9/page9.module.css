@@ -1,0 +1,468 @@
+.pg9Container {
+    /* border: solid; */
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pg9HeadingContainer {
+    /* border: solid red; */
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pg9HeadingContent {
+    /* border: solid blue; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#pg9HeadingContent2 {
+    /* border: solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 20%;
+    margin-top: 10px;
+}
+
+.pg9HeadingInnerContent {
+    /* border: solid; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#pg9HeadingInnerContent1 {
+    position: relative;
+    width: 1%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#pg9HeadingInnerContent2 {
+    position: relative;
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#pg9HeadingInnerContent2>h1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.headerPg9Dot {
+    border: solid grey;
+    background-color: grey;
+    border-radius: 100%;
+    width: 7px;
+    height: 7px;
+}
+
+.headerPg9Line1 {
+    border: 1px solid grey;
+    position: absolute;
+    right: 6px;
+    width: 21.5px;
+
+}
+
+.headerPg9Line2 {
+    border: 1px solid grey;
+    position: absolute;
+    right: 26px;
+    top: 40px;
+    height: 30px;
+
+}
+
+.headerPg9Line3 {
+    border: 1px solid grey;
+    position: absolute;
+    right: -872.5px;
+    top: 69px;
+    width: 900px;
+    border-bottom-right-radius: 100%;
+}
+
+.pg9HeadingText {
+    font-size: small;
+    letter-spacing: 0.1px;
+}
+
+.pg9MainContainer {
+    /* border: solid; */
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pg9MainContent {
+    /* border: solid red; */
+    height: 100%;
+    width: 31%;
+
+}
+
+.pg9MainOuterContent {
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353A41;
+    transition: 500ms ease-in-out;
+}
+
+.pg9MainInnerContent {
+    border: dotted white;
+    height: 93%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pg9MainItem1 {
+    /* border: solid blue; */
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 700ms ease-in-out;
+}
+
+
+
+.pg9MainInnerItem11 {
+    /* border: solid red; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.pg9MainInnerItem12 {
+    /* border: solid red; */
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: small;
+}
+
+.pg9MainIcon {
+    font-size: 45px;
+}
+
+.pg9MainInnerItem11>h1 {
+    font-size: 50px;
+}
+
+.pg9MainItem2 {
+    border-left: 2px solid white;
+    /* border: solid; */
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 700ms ease-in-out;
+}
+
+.pg9MainInnerItem21 {
+    /* border: solid red; */
+    height: 20px;
+    width: 100%;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.pg9MainInnerItem22 {
+    /* border: solid blue; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.pg9MainInnerItem22>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.pg9MainInnerItem22>ul>li {
+    font-size: small;
+    color: white;
+    padding-bottom: 10px;
+
+}
+
+.pg9MainItemTicket {
+    /* border: solid yellow; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    transform: rotateY(180deg);
+    transition: 600ms ease-in-out;
+
+
+}
+
+.pg9MainInnerItemTicket1 {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+.pg9MainTicketIcon {
+    /* border: solid; */
+    height: 65%;
+    transform: rotate(-45deg);
+}
+
+.pg9MainInnerItemTicket2 {
+    /* border: solid; */
+    width: 100%;
+    height: 50%;
+}
+
+.pg9MainTicket2Text1 {
+    /* border: solid red; */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.pg9MainTicket2Text2 {
+    /* border: solid red; */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.pg9MainContent:hover .pg9MainOuterContent {
+    transform: rotateY(180deg);
+    background-color: sandybrown;
+
+}
+
+.pg9MainContent:hover .pg9MainItem1 {
+    display: none;
+}
+
+.pg9MainContent:hover .pg9MainItem2 {
+    display: none;
+}
+
+.pg9MainContent:hover .pg9MainItemTicket {
+    display: flex;
+}
+
+/*transition error in tickets */
+@media screen and (max-width:600px) {
+    .pg9Container {
+        /* border: solid red; */
+        width: 700px;
+        height: 1000px;
+
+    }
+
+    .pg9HeadingContainer {
+        width: 99%;
+    }
+
+    #pg9HeadingInnerContent1 {
+        display: none
+    }
+
+    #pg9HeadingInnerContent2 {
+        /* border: solid red; */
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, silver, white);
+    }
+
+    #pg9HeadingContent2 {
+        /* border: solid; */
+        height: 35%;
+    }
+
+    .pg9HeadingText {
+        font-size: large;
+        letter-spacing: 0px;
+    }
+
+    .pg9MainContainer {
+        /* border: solid; */
+        height: 900px;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pg9MainContent {
+        /* border: solid red; */
+        height: 30%;
+        width: 80%;
+
+    }
+
+    .pg9MainInnerItem22 {
+        margin-left: -60px;
+    }
+
+    .pg9MainItemTicket {
+        display: none;
+    }
+
+    .pg9MainContent:hover .pg9MainOuterContent {
+        transform: none;
+    }
+
+    .pg9MainContent:hover .pg9MainItem1 {
+        display: flex;
+    }
+
+    .pg9MainContent:hover .pg9MainItem2 {
+        display: flex;
+    }
+
+    .pg9MainContent:hover .pg9MainItemTicket {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 990px)and (min-width:600px) {
+    .pg9Container {
+        /* border: solid red; */
+        height: 1000px;
+        width: 768px;
+        margin-top: 60px;
+
+    }
+
+    .pg9HeadingContainer {
+        width: 99%;
+    }
+
+    #pg9HeadingInnerContent1 {
+        display: none
+    }
+
+    #pg9HeadingInnerContent2 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, white, silver, white);
+    }
+
+    #pg9HeadingContent2 {
+        height: 40%;
+    }
+
+    .pg9HeadingText {
+        /* border: solid; */
+        width: 100%;
+        font-size: large;
+        letter-spacing: 0px;
+    }
+
+    .pg9MainContainer {
+        /* border: solid; */
+        height: 1000px;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .pg9MainContent {
+        /* border: solid red; */
+        height: 30%;
+        width: 80%;
+
+    }
+
+    .pg9MainInnerItem22 {
+        margin-left: -60px;
+    }
+
+    .pg9MainItemTicket {
+        display: none;
+    }
+
+    .pg9MainContent:hover .pg9MainOuterContent {
+        transform: none;
+    }
+
+    .pg9MainContent:hover .pg9MainItem1 {
+        display: flex;
+    }
+
+    .pg9MainContent:hover .pg9MainItem2 {
+        display: flex;
+    }
+
+    .pg9MainContent:hover .pg9MainItemTicket {
+        display: none;
+    }
+
+}

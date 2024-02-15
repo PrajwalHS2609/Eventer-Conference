@@ -1,0 +1,706 @@
+.pg3Container {
+    /* border: solid; */
+    height: 1000px;
+    position: relative;
+    background-color: white;
+    /* background: rgba(255, 255, 255, 0.458); */
+}
+
+.headerPg3Container {
+    /* border: solid; */
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+
+}
+
+.headerPg3Content {
+    border: solid transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#headerPg3Content1 {
+    width: 10%;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.headerPg3Dot {
+    border: solid grey;
+    background-color: grey;
+    border-radius: 100%;
+    width: 7px;
+    height: 7px;
+}
+
+.headerPg3Line1 {
+    border: 1px solid grey;
+    position: absolute;
+    right: 7px;
+    width: 20px;
+
+}
+
+.headerPg3Line2 {
+    border: 1px solid grey;
+    position: absolute;
+    right: 26px;
+    top: 52px;
+    height: 33px;
+
+}
+
+.headerPg3Line3 {
+    border: 1px solid grey;
+    position: absolute;
+    z-index: 3;
+    right: -873px;
+    top: 83px;
+    width: 900px;
+    border-bottom-right-radius: 100%;
+}
+
+#headerPg3Content2 {
+    width: 90%;
+    justify-content: flex-start;
+    font-size: larger;
+}
+
+.pg3MainContainer {
+    /* border: solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    margin-top: 40px;
+}
+
+.pg3MainContent {
+    /* border: solid red; */
+    height: 100%;
+
+}
+
+#pg3MainContent1 {
+    /* border: solid red; */
+    width: 10%;
+    margin-bottom: 82px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* background-color:white */
+}
+
+
+
+.pg3MainContent1Circle1 {
+    border: 4px solid silver;
+    position: absolute;
+    top: 60px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg3MainContent1Circle1Dot {
+    border: solid silver;
+    border-radius: 100%;
+    height: 9px;
+    width: 9px;
+    background-color: silver;
+}
+
+.pg3MainContent1Line1 {
+    border: solid silver;
+    position: absolute;
+    height: 150px;
+    top: 76px;
+
+}
+
+.pg3MainContent1Circle2 {
+    border: 4px solid silver;
+    position: absolute;
+    top: 209px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg3MainContent1Circle2Dot {
+    border: solid silver;
+    border-radius: 100%;
+    height: 9px;
+    width: 9px;
+    background-color: silver;
+}
+
+.pg3MainContent1Line2 {
+    border: solid silver;
+    position: absolute;
+    height: 200px;
+    top: 225px;
+}
+
+.pg3MainContent1Circle3 {
+    border: 4px solid silver;
+    position: absolute;
+    top: 409px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg3MainContent1Circle3Dot {
+    border: solid silver;
+    border-radius: 100%;
+    height: 9px;
+    width: 9px;
+    background-color: silver;
+}
+
+
+.pg3MainContent1Line3 {
+    border: solid silver;
+    position: absolute;
+    height: 200px;
+    top: 425px;
+}
+
+.pg3MainContent1Circle4 {
+    border: 4px solid silver;
+    position: absolute;
+    top: 609px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg3MainContent1Circle4Dot {
+    border: solid silver;
+    border-radius: 100%;
+    height: 9px;
+    width: 9px;
+    background-color: silver;
+}
+
+
+.pg3MainContent1Line4 {
+    border: solid silver;
+    position: absolute;
+    height: 200px;
+    top: 626px;
+}
+
+.pg3MainContent1Circle5 {
+    border: 4px solid silver;
+    position: absolute;
+    top: 809px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg3MainContent1Circle5Dot {
+    border: solid silver;
+    border-radius: 100%;
+    height: 9px;
+    width: 9px;
+    background-color: silver;
+}
+
+
+
+
+
+
+
+
+#pg3MainContent2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pg3MainInnerContent {
+    /* border: solid; */
+    width: 100%;
+}
+
+#pg3MainInnerContent1 {
+    height: 8%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pg3InnerContentHeading {
+    border: 2px solid;
+    border-right: none;
+    height: 80%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 23px;
+    gap: 20px;
+}
+
+.pg3InnerContentHeading>a {
+    color: black;
+    text-decoration: none;
+}
+
+#day3 {
+    border: 2px solid;
+}
+
+.pg3InnerContentHeading:hover {
+    border: #3E4651 solid;
+    background-color: #3E4651;
+    color: white;
+}
+
+.pg3InnerContentHeading:hover a {
+    color: white;
+}
+
+#day3:hover {
+    border: #3E4651 solid;
+    background-color: #3E4651;
+    color: white;
+}
+
+#pg3MainInnerContent2 {
+    /* border: solid blue; */
+    height: 100%;
+}
+
+.day1Container {
+    /* border: solid goldenrod; */
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.day1Content {
+    /* border: solid goldenrod; */
+    width: 100%;
+    height: 20%;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.day1Contentline1 {
+    /* border: solid; */
+    position: absolute;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-47deg);
+    background-color: sandybrown;
+}
+
+
+
+.day1Pic {
+    /* border: solid white; */
+    height: 90%;
+    width: 16%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.day1Pic>img {
+    width: 100%;
+    height: 100%;
+}
+
+.day1Txt {
+    /* border: solid; */
+    height: 90%;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.day1Txt>div {
+    margin-left: 10px;
+
+}
+
+.day1Time {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+.day1Heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    color: white;
+
+
+}
+
+.day1InnerTxt {
+    width: 90%;
+    height: 40%;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+
+}
+
+.day2Container {
+    /* border: solid goldenrod; */
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.day2Content {
+    /* border: solid goldenrod; */
+    width: 100%;
+    height: 20%;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.day2Contentline1 {
+    /* border: solid; */
+    position: absolute;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-47deg);
+    background-color: sandybrown;
+}
+
+.day2Pic {
+    /* border: solid white; */
+    height: 90%;
+    width: 16%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.day2Pic>img {
+    width: 100%;
+    height: 100%;
+}
+
+.day2Txt {
+    /* border: solid; */
+    height: 90%;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.day2Txt>div {
+    margin-left: 10px;
+
+}
+
+.day2Time {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+.day2Heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    color: white;
+
+
+}
+
+.day2InnerTxt {
+    width: 90%;
+    height: 40%;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+
+}
+
+.day3Container {
+    /* border: solid goldenrod; */
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.day3Content {
+    /* border: solid goldenrod; */
+    width: 100%;
+    height: 20%;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.day3Contentline1 {
+    /* border: solid; */
+    position: absolute;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-47deg);
+    background-color: sandybrown;
+}
+
+.day3Pic {
+    /* border: solid white; */
+    height: 90%;
+    width: 16%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.day3Pic>img {
+    width: 100%;
+    height: 100%;
+}
+
+.day3Txt {
+    /* border: solid; */
+    height: 90%;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.day3Txt>div {
+    margin-left: 10px;
+
+}
+
+.day3Time {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+.day3Heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    color: white;
+
+
+}
+
+.day3InnerTxt {
+    width: 90%;
+    height: 40%;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+
+}
+
+@media screen and (max-width:600px) {
+    .pg3Container {
+        /* border: solid; */
+        height: 1000px;
+        width: 700px;
+        position: relative;
+        margin-top: 790px;
+    }
+
+    .headerPg3Container {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+
+
+    }
+
+    #headerPg3Content1 {
+        display: none;
+
+    }
+
+    #headerPg3Content2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+        background: linear-gradient(to right, silver, white);
+
+    }
+
+    #pg3MainContent1 {
+        display: none;
+    }
+
+    #pg3MainContent2 {
+        width: 95%;
+        margin-bottom: 50px;
+
+    }
+
+    .day1Contentline1,
+    .day2Contentline1,
+    .day3Contentline1 {
+        display: none;
+    }
+
+    .day1Pic,
+    .day2Pic,
+    .day3Pic {
+        width: 22%;
+
+    }
+
+    .day1InnerTxt,
+    .day2InnerTxt,
+    .day3InnerTxt {
+        /* border: solid ; */
+        width: 95%;
+        height: 55%;
+        font-size: medium;
+        font-weight: lighter;
+        color: white;
+        letter-spacing: 1px;
+
+    }
+
+    .day2Heading {
+        width: 100%;
+    }
+
+    #pg3MainInnerContent1 {
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pg3InnerContentHeading {
+
+        width: 40%;
+
+    }
+
+}
+
+@media screen and (max-width: 990px)and (min-width:600px) {
+    .pg3Container {
+        /* border: solid; */
+        height: 1000px;
+        width: 768px;
+        position: relative;
+        margin-top: 70px;
+    }
+
+    #headerPg3Content1 {
+        display: none;
+
+    }
+
+    #headerPg3Content2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+        background: linear-gradient(to right, white, silver, white);
+
+    }
+
+    .pg3InnerContentHeading {
+
+        width: 40%;
+
+    }
+
+    #pg3MainContent2 {
+        width: 85%;
+        margin-bottom: 50px;
+
+    }
+
+    #pg3MainContent1 {
+        margin-bottom: 135px;
+    }
+
+    .day2Heading {
+        width: 100%;
+    }
+}
