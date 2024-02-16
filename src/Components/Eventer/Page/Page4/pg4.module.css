@@ -327,10 +327,22 @@
         display: none;
     }
 
-    #pg4SliderIconBlock {
+      #pg4SliderIconBlock {
         height: 45%;
         width: 22%;
 
 
+    }
+    .pg4SliderContent {
+        /* border: solid green; */
+        height: 350px;
+    }
+
+    .pg4SliderInnerContent {
+        /* border: solid; */
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    
     }
 }
